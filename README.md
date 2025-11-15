@@ -33,12 +33,12 @@ Port 15 unused
 Port 16 unused
 ### TL-SG108E Ports configuration
 port 1 TL-SG116
-port 2
+port 2 unused
 port 3 FRITZ!Box 7590 AX
 port 4 tado internet bridge
 port 5 kpn tv outside (currently off)
-port 6
-port 7
+port 6 sagecom
+port 7 unused
 port 8 unused
 
 ### TL-SG108E configuration
@@ -47,14 +47,15 @@ port 8 unused
 #### Port Switching
 | Port  | Status  | Speed/Duplex Config | Speed/Duplex Actual | Flow Control Config | Flow Control Actual |
 |-------|---------|---------------------|---------------------|---------------------|---------------------|
-| Port1 | Enabled | Auto                | 1000MF              | Off                 | Off                 |
-| Port2 | Enabled | Auto                | 1000MF              | Off                 | Off                 |
-| Port3 | Enabled | Auto                | 1000MF              | Off                 | Off                 |
-| Port4 | Enabled | Auto                | 10MH                | Off                 | Off                 |
-| Port5 | Enabled | Auto                | Link Down           | Off                 | Off                 |
-| Port6 | Enabled | Auto                | 100MF               | Off                 | Off                 |
-| Port7 | Enabled | Auto                | 1000MF              | Off                 | Off                 |
-| Port8 | Enabled | Auto                | Link Down           | Off                 | Off                 |
+| Port 1 | Enabled | Auto                | 1000MF              | Off                 | Off                 |
+| Port 2 | Enabled | Auto                | Link Down           | Off                 | Off                 |
+| Port 3 | Enabled | Auto                | 1000MF              | Off                 | Off                 |
+| Port 4 | Enabled | Auto                | 10MH                | Off                 | Off                 |
+| Port 5 | Enabled | Auto                | Link Down           | Off                 | Off                 |
+| Port 6 | Enabled | Auto                | 100MF               | Off                 | Off                 |
+| Port 7 | Enabled | Auto                | Link Down           | Off                 | Off                 |
+| Port 8 | Enabled | Auto                | Link Down           | Off                 | Off                 |
+
 
 
 #### IGMP Snooping
@@ -95,7 +96,12 @@ storm control disabled
 note: all are Power Mode enabled
 
 ## Router ports
-port 1 modem with power glas and Ethernet lights on it black
+WAN modem with power glas and Ethernet lights on it black
+port 1 frame tv
 port 2 orange port light playstation 4 number 1
 port 3 TL-SG108E
 port 4 Orange Port light playstation 4 number 2
+
+
+kpn itv setting
+unicast enabled
