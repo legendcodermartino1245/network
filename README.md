@@ -15,21 +15,19 @@ Switch 2: TP-Link TL-SG116 connected to TL-SG108E
 1 laptop lenovo or work laptop connected to  TP-Link TL-SG116 Speed & Duplex 1.0 Gbps Full Duplex (device manager poperties of network adapter)
 
 
-### TL-SG108E configuration
+
+### TL-SG108E Ports configuration
 port 1 
 port 2
-port 3 Fritzbox router
+port 3 FRITZ!Box 7590 AX
 port 4 tado internet bridge
-port 5 kpn tv outside
+port 5 kpn tv outside (currently off)
 port 6
 port 7
 port 8 unused
+### TL-SG108E configuration
 
-router ports
-port 1 modem with power glas and Ethernet lights on it black
-port 2 orange port light playstation 4 number 1
-port 3 switch
-port 4 Orange Port light playstation 4 number 2
+
 
 
 
@@ -73,3 +71,19 @@ QoS Mode: Port Based
 | 8    | 1 (Lowest)     |
 
 storm control disabled
+
+# Router
+| LAN-aansluiting | Power Mode | Green Mode |
+| --------------- | ---------- | ---------- |
+| LAN 1           | 1 Gbit/s   | 100 Mbit/s |
+| LAN 2           | 1 Gbit/s   | 100 Mbit/s |
+| LAN 3           | 1 Gbit/s   | 100 Mbit/s |
+| LAN 4           | 1 Gbit/s   | 100 Mbit/s |
+| WAN/LAN 5       | 1 Gbit/s   | 100 Mbit/s |
+note: all are Power Mode enabled
+
+## Router ports
+port 1 modem with power glas and Ethernet lights on it black
+port 2 orange port light playstation 4 number 1
+port 3 TL-SG108E
+port 4 Orange Port light playstation 4 number 2
