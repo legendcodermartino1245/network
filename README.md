@@ -12,9 +12,13 @@ Switch 2: TP-Link TL-SG116 connected to TL-SG108E
 2 playstations with lan cable
 1 Samsung Frame TV 2024 (65") with lan cable 100 Mbit/s only
 1 Sagemcom DWV2002 with lan cable 100 Mbit/s only
-1 laptop lenovo or work laptop connected to  TP-Link TL-SG116 Speed & Duplex 1.0 Gbps Full Duplex (device manager poperties of network adapter)
+1 laptop lenovo or work laptop connected to TP-Link TL-SG116 Speed & Duplex 1.0 Gbps Full Duplex (device manager poperties of network adapter)
 
-
+### TP-Link TL-SG116 Port configuration
+Port 1 Steam deck
+Port 2 TL-SG108E 
+Port 3 laptop
+Port 4 hue bridge
 
 ### TL-SG108E Ports configuration
 port 1 
@@ -61,14 +65,14 @@ Loop Prevention Enable
 QoS Mode: Port Based
 | Port | Priority Queue |
 |------|----------------|
-| 1    | 4 (Highest)    |
-| 2    | 4 (Highest)    |
+| 1    | 2(Normal)      |
+| 2    | 2(Normal)      |
 | 3    | 2 (Normal)     |
-| 4    | 1 (Lowest)     |
-| 5    | 1 (Lowest)     |
-| 6    | 3 (Medium)     |
-| 7    | 4 (Highest)    |
-| 8    | 1 (Lowest)     |
+| 4    | 2(Normal)      |
+| 5    | 2(Normal)      |
+| 6    | 2(Normal)      |
+| 7    | 2(Normal)      |
+| 8    | 2(Normal)      |
 
 storm control disabled
 
