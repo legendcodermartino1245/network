@@ -19,9 +19,20 @@ Port 1 Steam deck
 Port 2 TL-SG108E 
 Port 3 laptop
 Port 4 hue bridge
-
+Port 5 unused
+Port 6 unused
+Port 7 unused
+Port 8 unused
+Port 9 unused
+Port 10 unused
+Port 11 unused
+Port 12 unused
+Port 13 unused
+Port 14 unused
+Port 15 unused
+Port 16 unused
 ### TL-SG108E Ports configuration
-port 1 
+port 1 TL-SG116
 port 2
 port 3 FRITZ!Box 7590 AX
 port 4 tado internet bridge
@@ -29,11 +40,8 @@ port 5 kpn tv outside (currently off)
 port 6
 port 7
 port 8 unused
+
 ### TL-SG108E configuration
-
-
-
-
 
 #### Switching
 #### Port Switching
