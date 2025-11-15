@@ -16,6 +16,23 @@ Switch 2: TP-Link TL-SG116 connected to TL-SG108E
 
 
 ### TL-SG108E configuration
+port 1 
+port 2
+port 3 Fritzbox router
+port 4 tado internet bridge
+port 5 kpn tv outside
+port 6
+port 7
+port 8 unused
+
+router ports
+port 1 modem with power glas and Ethernet lights on it black
+port 2 orange port light playstation 4 number 1
+port 3 switch
+port 4 Orange Port light playstation 4 number 2
+
+
+
 #### Switching
 #### Port Switching
 | Port  | Status  | Speed/Duplex Config | Speed/Duplex Actual | Flow Control Config | Flow Control Actual |
